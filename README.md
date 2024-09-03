@@ -1,6 +1,3 @@
-![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
-
-
 # Dataset de Apartamentos à Venda em São Paulo
 
 ## Descrição da Origem
@@ -43,3 +40,5 @@ Não há restrições para o uso do dataset para estudos e projetos acadêmicos,
 ## Contato
 
 Para mais informações, você pode entrar em contato com o criador do dataset através do fórum do Kaggle ou verificar as informações adicionais diretamente na página do dataset.
+
+![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
