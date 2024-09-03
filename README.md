@@ -1,3 +1,6 @@
+![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
+
+
 # Dataset de Apartamentos à Venda em São Paulo
 
 ## Descrição da Origem
