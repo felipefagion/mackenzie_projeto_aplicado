@@ -16,10 +16,6 @@ O dataset contém informações detalhadas sobre apartamentos à venda na cidade
   - Coordenadas geográficas (latitude e longitude)
   - Outras variáveis relevantes relacionadas às propriedades
 
-## Possíveis Problemas
-
-Devido ao método de coleta via web scraping, pode haver inconsistências nos dados. O processo de captura não incluiu etapas de tratamento e limpeza, o que pode resultar em dados imprecisos ou desatualizados. É recomendável realizar uma análise preliminar e limpeza dos dados antes de utilizá-los para análises mais profundas.
-
 ## Objetivo do Dataset
 
 O objetivo principal deste dataset é possibilitar o entendimento e a análise de padrões relacionados a apartamentos à venda na cidade de São Paulo. Ele pode ser usado para diversas aplicações, como:
