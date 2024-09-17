@@ -1,52 +1,62 @@
 # Dataset de Apartamentos à Venda em São Paulo
 
-## Descrição da Origem
-
-Este dataset foi disponibilizado por um usuário no site Kaggle, uma plataforma voltada para a comunidade de Ciência de Dados. Os dados foram coletados por meio de web scraping de um site público de uma empresa de venda e aluguel de imóveis, especificamente o [vivareal.com.br](https://vivareal.com.br), em janeiro de 2023.
-
 ## Descrição do Dataset
 
-O dataset contém informações detalhadas sobre apartamentos à venda na cidade de São Paulo, incluindo:
+Este dataset contém informações sobre apartamentos à venda na cidade de São Paulo. Os dados foram coletados por meio de web scraping de [vivareal.com.br](https://vivareal.com.br) e foram disponibilizados na plataforma [Kaggle](https://www.kaggle.com).
 
 - **Número de Variáveis:** 23
-- **Variáveis Incluídas:**
-  - Distância até o metrô mais próximo
-  - IDH (Índice de Desenvolvimento Humano) do bairro
-  - Renda média do bairro
-  - Coordenadas geográficas (latitude e longitude)
-  - Outras variáveis relevantes relacionadas às propriedades
+- **Formato do Arquivo:** XLSX
+- **Nome do Arquivo:** `base_imoveis.xlsx`
+
+## Variáveis Incluídas
+
+O dataset inclui as seguintes variáveis:
+
+- **Distância até o metrô mais próximo:** Distância em metros até a estação de metrô mais próxima.
+- **IDH (Índice de Desenvolvimento Humano) do bairro:** Índice que mede o desenvolvimento humano da área.
+- **Renda média do bairro:** Média de renda dos residentes no bairro.
+- **Coordenadas geográficas:** Latitude e longitude do imóvel.
+- **Outras variáveis:** Informações adicionais relevantes sobre os apartamentos, como número de quartos, banheiros, área total, etc.
 
 ## Objetivo do Dataset
 
-O objetivo principal deste dataset é possibilitar o entendimento e a análise de padrões relacionados a apartamentos à venda na cidade de São Paulo. Ele pode ser usado para diversas aplicações, como:
-- Análise de preços de imóveis
-- Estudo de fatores que influenciam o valor dos apartamentos
-- Análise de padrões espaciais e socioeconômicos
+O objetivo deste dataset é permitir a análise de padrões e fatores relacionados a apartamentos à venda em São Paulo. Possíveis aplicações incluem:
 
-## Linguagem Utilizada
+- **Análise de Preços:** Compreender como o preço dos apartamentos varia com base em diferentes fatores.
+- **Estudo de Fatores Influentes:** Analisar quais variáveis (como a distância ao metrô, IDH, renda média) afetam o valor dos imóveis.
+- **Análise Espacial e Socioeconômica:** Explorar padrões espaciais e socioeconômicos relacionados ao mercado imobiliário.
 
-- **Linguagem:** Python
+## Linguagem e Bibliotecas Utilizadas
 
-## Bibliotecas Python
-
-- **Numpy**
-- **Plotly**
-- **Pandas**
+- **Linguagem de Programação:** Python
+- **Bibliotecas Python:**
+  - **Numpy**: Para manipulação de arrays e cálculos numéricos.
+  - **Plotly**: Para visualização interativa de dados.
+  - **Pandas**: Para manipulação e análise de dados.
 
 ## Licença
 
-Não há restrições para o uso do dataset para estudos e projetos acadêmicos, conforme a autorização do criador do dataset no Kaggle.
+Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há restrições específicas para o uso, conforme a autorização do criador no Kaggle.
 
-## Arquivo
+## Instruções para Uso
 
-- **Formato do Arquivo:** XLSX
-- **Nome do Arquivo:** base_imoveis
+1. **Download do Arquivo:** Faça o download do arquivo `base_imoveis.xlsx` da [página do dataset no Kaggle](https://www.kaggle.com/dataset-page-link).
+2. **Carregamento dos Dados:** Use bibliotecas como `pandas` para carregar e explorar os dados. Exemplo:
+    ```python
+    import pandas as pd
+    
+    # Carregar o dataset
+    df = pd.read_excel('caminho/para/base_imoveis.xlsx')
+    
+    # Visualizar as primeiras linhas
+    print(df.head())
+    ```
+3. **Exploração e Análise:** Utilize `numpy`, `pandas`, e `plotly` para realizar análises e visualizações conforme necessário.
 
 ## Contato
 
-Para mais informações, você pode entrar em contato com o criador do dataset através do fórum do Kaggle ou verificar as informações adicionais diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
+Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
 
 ## Imagem de Exemplo
 
 ![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
-
