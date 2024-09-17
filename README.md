@@ -29,8 +29,9 @@ O objetivo principal deste dataset é possibilitar o entendimento e a análise d
 -Python
 
 ## Bibliotecas Python
+
 - Numpy
-- plotly
+- Plotly
 - Pandas
 
 ## Licença
