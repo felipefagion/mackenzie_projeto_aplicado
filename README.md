@@ -25,13 +25,13 @@ O objetivo principal deste dataset é possibilitar o entendimento e a análise d
 
 ## Linguagem Utilizada
 
--Python
+- **Linguagem:** Python
 
 ## Bibliotecas Python
 
-- Numpy
-- Plotly
-- Pandas
+- **Numpy**
+- **Plotly**
+- **Pandas**
 
 ## Licença
 
@@ -39,11 +39,14 @@ Não há restrições para o uso do dataset para estudos e projetos acadêmicos,
 
 ## Arquivo
 
-- **Formato do arquivo:** XLSX
-- **Nome do arquivo:** base_imoveis
+- **Formato do Arquivo:** XLSX
+- **Nome do Arquivo:** base_imoveis
 
 ## Contato
 
-Para mais informações, você pode entrar em contato com o criador do dataset através do fórum do Kaggle ou verificar as informações adicionais diretamente na página do dataset.
+Para mais informações, você pode entrar em contato com o criador do dataset através do fórum do Kaggle ou verificar as informações adicionais diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
+
+## Imagem de Exemplo
 
 ![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
+
