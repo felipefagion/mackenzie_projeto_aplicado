@@ -38,21 +38,6 @@ O objetivo deste dataset é permitir a análise de padrões e fatores relacionad
 
 Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há restrições específicas para o uso, conforme a autorização do criador no Kaggle.
 
-## Instruções para Uso
-
-1. **Download do Arquivo:** Faça o download do arquivo `base_imoveis.xlsx` da [página do dataset no Kaggle](https://www.kaggle.com/dataset-page-link).
-2. **Carregamento dos Dados:** Use bibliotecas como `pandas` para carregar e explorar os dados. Exemplo:
-    ```python
-    import pandas as pd
-    
-    # Carregar o dataset
-    df = pd.read_excel('caminho/para/base_imoveis.xlsx')
-    
-    # Visualizar as primeiras linhas
-    print(df.head())
-    ```
-3. **Exploração e Análise:** Utilize `numpy`, `pandas`, e `plotly` para realizar análises e visualizações conforme necessário.
-
 ## Contato
 
 Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
