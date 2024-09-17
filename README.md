@@ -19,7 +19,6 @@ O dataset contém informações detalhadas sobre apartamentos à venda na cidade
 ## Objetivo do Dataset
 
 O objetivo principal deste dataset é possibilitar o entendimento e a análise de padrões relacionados a apartamentos à venda na cidade de São Paulo. Ele pode ser usado para diversas aplicações, como:
-
 - Análise de preços de imóveis
 - Estudo de fatores que influenciam o valor dos apartamentos
 - Análise de padrões espaciais e socioeconômicos
