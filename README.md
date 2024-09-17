@@ -23,6 +23,7 @@ O objetivo principal deste dataset é possibilitar o entendimento e a análise d
 - Análise de preços de imóveis
 - Estudo de fatores que influenciam o valor dos apartamentos
 - Análise de padrões espaciais e socioeconômicos
+
 ## Linguagem Utilizada
 
 -Python
