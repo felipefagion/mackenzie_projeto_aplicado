@@ -1,5 +1,18 @@
 # Análise de Dados no Mercado Imobiliário
 
+## Sumário
+1. [Descrição do Dataset](#descrição-do-dataset)
+2. [Variáveis Incluídas](#variáveis-incluídas)
+3. [Objetivo do Dataset](#objetivo-do-dataset)
+4. [Metodologia](#metodologia)
+5. [Análise Exploratória](#análise-exploratória)
+6. [Resultados Esperados](#resultados-esperados)
+7. [Visualizações](#visualizações)
+8. [Instruções de Execução](#instruções-de-execução)
+9. [Licença](#licença)
+10. [Contato](#contato)
+11. [Imagem de Exemplo](#imagem-de-exemplo)
+
 ## Descrição do Dataset
 
 Este dataset contém informações sobre apartamentos à venda na cidade de São Paulo. Os dados foram coletados por meio de web scraping de [vivareal.com.br](https://vivareal.com.br) e foram disponibilizados na plataforma [Kaggle](https://www.kaggle.com).
@@ -26,22 +39,30 @@ O objetivo deste dataset é permitir a análise de padrões e fatores relacionad
 - **Estudo de Fatores Influentes:** Analisar quais variáveis (como a distância ao metrô, IDH, renda média) afetam o valor dos imóveis.
 - **Análise Espacial e Socioeconômica:** Explorar padrões espaciais e socioeconômicos relacionados ao mercado imobiliário.
 
-## Linguagem e Bibliotecas Utilizadas
+## Metodologia
 
-- **Linguagem de Programação:** Python
-- **Bibliotecas Python:**
-  - **Numpy**: Para manipulação de arrays e cálculos numéricos.
-  - **Plotly**: Para visualização interativa de dados.
-  - **Pandas**: Para manipulação e análise de dados.
+A análise será realizada utilizando os seguintes métodos:
 
-## Licença
+- **Análise Estatística:** Testes para verificar a correlação entre variáveis.
+- **Visualização de Dados:** Criação de gráficos e tabelas para ilustrar os dados e resultados.
 
-Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há restrições específicas para o uso, conforme a autorização do criador no Kaggle.
+## Análise Exploratória
 
-## Contato
+Nesta fase, serão realizadas diversas análises para entender melhor o conjunto de dados, incluindo:
 
-Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
+- **Análise Descritiva:** Cálculo de estatísticas descritivas (média, mediana, moda, desvio padrão) para as variáveis numéricas.
+- **Análise de Outliers:** Identificação de possíveis outliers nas variáveis mais relevantes, como preço e renda média.
+- **Análise de Distribuições:** Visualização das distribuições das variáveis principais para compreender a forma dos dados (ex: histogramas, boxplots).
+- **Análise de Correlação:** Avaliação das correlações entre variáveis para identificar relações significativas.
 
-## Imagem de Exemplo
+## Resultados Esperados
 
-![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
+Espera-se identificar padrões que influenciam os preços dos apartamentos, além de insights sobre como fatores como localização e características do imóvel impactam a valorização.
+
+## Visualizações
+
+Serão realizadas as seguintes visualizações:
+
+- Gráficos de dispersão para analisar a relação entre preço e distância ao metrô.
+- Histogramas para visualizar a distribuição de preços e renda média.
+- Heatmaps de correlação para entender as inter-relações entre variáveis.
