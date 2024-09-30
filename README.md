@@ -66,3 +66,23 @@ Serão realizadas as seguintes visualizações:
 - Gráficos de dispersão para analisar a relação entre preço e distância ao metrô.
 - Histogramas para visualizar a distribuição de preços e renda média.
 - Heatmaps de correlação para entender as inter-relações entre variáveis.
+
+## Linguagem e Bibliotecas Utilizadas
+
+- **Linguagem de Programação:** Python
+- **Bibliotecas Python:**
+  - **numpy**: Para manipulação de arrays e cálculos numéricos.
+  - **matplotlib.pyplot**: Para visualização de dados.
+  - **pandas**: Para manipulação e análise de dados.
+  - **seaborn**: Para visualização avançada de dados.
+
+## Licença
+
+Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há restrições específicas para o uso, conforme a autorização do criador no Kaggle.
+
+## Contato
+
+Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
+
+
+![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
