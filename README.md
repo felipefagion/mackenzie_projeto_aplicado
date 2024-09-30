@@ -11,7 +11,6 @@
 8. [Instruções de Execução](#instruções-de-execução)
 9. [Licença](#licença)
 10. [Contato](#contato)
-11. [Imagem de Exemplo](#imagem-de-exemplo)
 
 ## Descrição do Dataset
 
