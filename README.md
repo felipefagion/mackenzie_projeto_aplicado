@@ -27,11 +27,12 @@ O dataset abrange diversas variáveis que influenciam o mercado imobiliário, in
 - **Coordenadas geográficas:** Latitude e longitude do imóvel, para permitir análises espaciais.
 - **Outras variáveis:** Informações adicionais como número de quartos, banheiros, área total, entre outras características relevantes.
 
-## Objetivo do Dataset
-Este dataset foi criado para permitir uma análise detalhada do mercado imobiliário em São Paulo, com foco em:
-- **Análise de Preços:** Identificar padrões de variação nos preços de apartamentos com base em fatores diversos.
-- **Estudo de Fatores Influentes:** Analisar como variáveis como distância ao metrô, IDH do bairro e renda média afetam o preço dos imóveis.
-- **Análise Espacial e Socioeconômica:** Explorar os padrões geográficos e socioeconômicos que afetam a valorização imobiliária.
+## Objetivo do Estudo
+Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista, com foco em como o acesso facilitado a transportes urbanos, como o metrô, pode influenciar o aumento dos alugueis e dos preços de imóveis. A pesquisa também busca entender de que forma a localização afeta a segregação social, ao encarecer áreas com maior acessibilidade e excluir populações de menor poder aquisitivo dessas regiões. 
+
+Para alcançar esses objetivos, será realizada uma análise detalhada dos dados de alugueis fornecidos pela maior empresa do setor imobiliário. O estudo pretende identificar os principais fatores que impactam os preços dos imóveis, seja para torná-los mais caros ou mais acessíveis, levando em consideração aspectos como infraestrutura e proximidade com transporte público.
+
+Além disso, a pesquisa irá mapear os bairros mais caros da cidade de São Paulo, verificando a correlação entre o valor dos imóveis e a proximidade dos centros de acessibilidade urbana, como estações de metrô e linhas de ônibus. Dessa forma, será possível compreender melhor os efeitos do planejamento urbano sobre o mercado imobiliário e as disparidades sociais.
 
 ## Metodologia
 A análise será conduzida utilizando as seguintes abordagens:
@@ -69,10 +70,19 @@ Este dataset é disponibilizado para fins de estudos e projetos acadêmicos. Nã
 Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/datasets/jlgrego/apartamentos-venda-na-cidade-de-sao-paulo-sp).
 
 ### Colaboradores Alunos
-Felipe Fagion Longarini 
-João Pedro Daltro Rodrigues 
-Diogo Moreira Poltosi Rezende 
-Lucas Oliveira
-Gustavo Rosa Arizona 
+- Felipe Fagion Longarini 
+- João Pedro Daltro Rodrigues 
+- Diogo Moreira Poltosi Rezende 
+- Lucas Oliveira
+- Gustavo Rosa Arizona
+
+### Professor:
+Thiago Graziani Traue 
+
+### Professor Tutor:
+Vinicius Piro Barragam
+ 
+
+  
 
 ![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
