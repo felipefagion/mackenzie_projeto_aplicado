@@ -1,86 +1,71 @@
-# Análise de Dados no Mercado Imobiliário
+# Análise de Dados no Mercado Imobiliário de São Paulo
 
 ## Sumário
-1. [Descrição do Dataset](#descrição-do-dataset)
-2. [Variáveis Incluídas](#variáveis-incluídas)
-3. [Objetivo do Dataset](#objetivo-do-dataset)
-4. [Metodologia](#metodologia)
-5. [Análise Exploratória](#análise-exploratória)
-6. [Resultados Esperados](#resultados-esperados)
-7. [Visualizações](#visualizações)
-8. [Instruções de Execução](#instruções-de-execução)
-9. [Licença](#licença)
-10. [Contato](#contato)
+- [Descrição do Dataset](#descrição-do-dataset)
+- [Variáveis Incluídas](#variáveis-incluídas)
+- [Objetivo do Dataset](#objetivo-do-dataset)
+- [Metodologia](#metodologia)
+- [Análise Exploratória](#análise-exploratória)
+- [Resultados Esperados](#resultados-esperados)
+- [Visualizações](#visualizações)
+- [Linguagem e Bibliotecas Utilizadas](#linguagem-e-bibliotecas-utilizadas)
+- [Licença](#licença)
+- [Contato](#contato)
 
 ## Descrição do Dataset
-
-Este dataset contém informações sobre apartamentos à venda na cidade de São Paulo. Os dados foram coletados por meio de web scraping de [vivareal.com.br](https://vivareal.com.br) e foram disponibilizados na plataforma [Kaggle](https://www.kaggle.com).
+Este dataset contém informações detalhadas sobre apartamentos à venda na cidade de São Paulo, obtidas por meio de web scraping no site [vivareal.com.br](https://vivareal.com.br) e disponibilizadas na plataforma Kaggle. Ele oferece uma base rica para análises de padrões imobiliários, especialmente em relação a preços, localização e fatores socioeconômicos.
 
 - **Número de Variáveis:** 23
 - **Formato do Arquivo:** XLSX
-- **Nome do Arquivo:** `base_imoveis.xlsx`
+- **Nome do Arquivo:** base_imoveis.xlsx
 
 ## Variáveis Incluídas
-
-O dataset inclui as seguintes variáveis:
-
-- **Distância até o metrô mais próximo:** Distância em metros até a estação de metrô mais próxima.
-- **IDH (Índice de Desenvolvimento Humano) do bairro:** Índice que mede o desenvolvimento humano da área.
-- **Renda média do bairro:** Média de renda dos residentes no bairro.
-- **Coordenadas geográficas:** Latitude e longitude do imóvel.
-- **Outras variáveis:** Informações adicionais relevantes sobre os apartamentos, como número de quartos, banheiros, área total, etc.
+O dataset abrange diversas variáveis que influenciam o mercado imobiliário, incluindo:
+- **Distância até o metrô mais próximo:** Medida em metros, reflete a proximidade do imóvel à estação de metrô mais próxima.
+- **IDH (Índice de Desenvolvimento Humano) do bairro:** Índice que avalia a qualidade de vida na área, considerando fatores como educação, longevidade e renda.
+- **Renda média do bairro:** Média da renda dos moradores na região.
+- **Coordenadas geográficas:** Latitude e longitude do imóvel, para permitir análises espaciais.
+- **Outras variáveis:** Informações adicionais como número de quartos, banheiros, área total, entre outras características relevantes.
 
 ## Objetivo do Dataset
-
-O objetivo deste dataset é permitir a análise de padrões e fatores relacionados a apartamentos à venda em São Paulo. Possíveis aplicações incluem:
-
-- **Análise de Preços:** Compreender como o preço dos apartamentos varia com base em diferentes fatores.
-- **Estudo de Fatores Influentes:** Analisar quais variáveis (como a distância ao metrô, IDH, renda média) afetam o valor dos imóveis.
-- **Análise Espacial e Socioeconômica:** Explorar padrões espaciais e socioeconômicos relacionados ao mercado imobiliário.
+Este dataset foi criado para permitir uma análise detalhada do mercado imobiliário em São Paulo, com foco em:
+- **Análise de Preços:** Identificar padrões de variação nos preços de apartamentos com base em fatores diversos.
+- **Estudo de Fatores Influentes:** Analisar como variáveis como distância ao metrô, IDH do bairro e renda média afetam o preço dos imóveis.
+- **Análise Espacial e Socioeconômica:** Explorar os padrões geográficos e socioeconômicos que afetam a valorização imobiliária.
 
 ## Metodologia
-
-A análise será realizada utilizando os seguintes métodos:
-
-- **Análise Estatística:** Testes para verificar a correlação entre variáveis.
-- **Visualização de Dados:** Criação de gráficos e tabelas para ilustrar os dados e resultados.
+A análise será conduzida utilizando as seguintes abordagens:
+- **Análise Estatística:** Serão realizados testes de correlação e outras análises estatísticas para examinar as relações entre as variáveis.
+- **Visualização de Dados:** Serão criados gráficos e tabelas para ilustrar os resultados de maneira clara e compreensível.
 
 ## Análise Exploratória
-
-Nesta fase, serão realizadas diversas análises para entender melhor o conjunto de dados, incluindo:
-
-- **Análise Descritiva:** Cálculo de estatísticas descritivas (média, mediana, moda, desvio padrão) para as variáveis numéricas.
-- **Análise de Outliers:** Identificação de possíveis outliers nas variáveis mais relevantes, como preço e renda média.
-- **Análise de Distribuições:** Visualização das distribuições das variáveis principais para compreender a forma dos dados (ex: histogramas, boxplots).
-- **Análise de Correlação:** Avaliação das correlações entre variáveis para identificar relações significativas.
+Na fase exploratória, as seguintes atividades serão realizadas para obter insights iniciais:
+- **Análise Descritiva:** Cálculo de estatísticas descritivas, como média, mediana e desvio padrão para as variáveis numéricas.
+- **Identificação de Outliers:** Detecção de outliers em variáveis como preço e renda média.
+- **Visualização de Distribuições:** Criação de histogramas e boxplots para visualizar as distribuições das variáveis principais.
+- **Análise de Correlação:** Estudo das correlações entre variáveis para entender melhor as inter-relações e identificar possíveis padrões.
 
 ## Resultados Esperados
-
-Espera-se identificar padrões que influenciam os preços dos apartamentos, além de insights sobre como fatores como localização e características do imóvel impactam a valorização.
+Espera-se que a análise revele padrões significativos que influenciem os preços dos apartamentos. Além disso, insights sobre como a localização e características dos imóveis impactam a valorização serão gerados, auxiliando na compreensão das dinâmicas do mercado imobiliário em São Paulo.
 
 ## Visualizações
-
-Serão realizadas as seguintes visualizações:
-
-- Gráficos de dispersão para analisar a relação entre preço e distância ao metrô.
-- Histogramas para visualizar a distribuição de preços e renda média.
-- Heatmaps de correlação para entender as inter-relações entre variáveis.
+Serão criadas as seguintes visualizações para apoiar a análise:
+- **Gráficos de Dispersão:** Para analisar a relação entre o preço dos imóveis e a distância ao metrô.
+- **Histogramas:** Para visualizar a distribuição dos preços e da renda média dos bairros.
+- **Heatmaps de Correlação:** Para entender as inter-relações entre as variáveis, destacando correlações fortes.
 
 ## Linguagem e Bibliotecas Utilizadas
-
 - **Linguagem de Programação:** Python
 - **Bibliotecas Python:**
-  - **numpy**: Para manipulação de arrays e cálculos numéricos.
-  - **matplotlib.pyplot**: Para visualização de dados.
-  - **pandas**: Para manipulação e análise de dados.
-  - **seaborn**: Para visualização avançada de dados.
+  - NumPy: Para manipulação de arrays e cálculos numéricos.
+  - Matplotlib: Para visualização gráfica dos dados.
+  - Pandas: Para manipulação e análise dos dados.
+  - Seaborn: Para criação de gráficos avançados e visualizações detalhadas.
 
 ## Licença
-
-Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há restrições específicas para o uso, conforme a autorização do criador no Kaggle.
+Este dataset é disponibilizado para fins de estudos e projetos acadêmicos. Não há restrições para o uso, de acordo com as diretrizes do criador, disponíveis no Kaggle.
 
 ## Contato
-
 Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/datasets/jlgrego/apartamentos-venda-na-cidade-de-sao-paulo-sp).
 
 
