@@ -11,7 +11,6 @@
 8. [Instruções de Execução](#instruções-de-execução)
 9. [Licença](#licença)
 10. [Contato](#contato)
-11. [Imagem de Exemplo](#imagem-de-exemplo)
 
 ## Descrição do Dataset
 
@@ -82,7 +81,7 @@ Este dataset pode ser utilizado para estudos e projetos acadêmicos. Não há re
 
 ## Contato
 
-Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/dataset-page-link).
+Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/datasets/jlgrego/apartamentos-venda-na-cidade-de-sao-paulo-sp).
 
 
 ![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
