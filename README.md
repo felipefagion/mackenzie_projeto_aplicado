@@ -68,5 +68,11 @@ Este dataset é disponibilizado para fins de estudos e projetos acadêmicos. Nã
 ## Contato
 Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/datasets/jlgrego/apartamentos-venda-na-cidade-de-sao-paulo-sp).
 
+### Colaboradores Alunos
+Felipe Fagion Longarini 
+João Pedro Daltro Rodrigues 
+Diogo Moreira Poltosi Rezende 
+Lucas Oliveira
+Gustavo Rosa Arizona 
 
 ![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
