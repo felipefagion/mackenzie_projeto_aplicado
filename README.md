@@ -3,7 +3,7 @@
 ## Sumário
 - [Descrição do Dataset](#descrição-do-dataset)
 - [Variáveis Incluídas](#variáveis-incluídas)
-- [Objetivo do Dataset](#objetivo-do-dataset)
+- [Objetivo do Estudo](#Objetivo do Estudo)
 - [Metodologia](#metodologia)
 - [Análise Exploratória](#análise-exploratória)
 - [Resultados Esperados](#resultados-esperados)
