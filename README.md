@@ -1,88 +1,56 @@
-# Análise de Dados no Mercado Imobiliário de São Paulo
+# Aprimorando Dados Textuais: Análise de Sentimentos Guaraná Antarctica 🍹
 
-## Sumário
-- [Descrição do Dataset](#descrição-do-dataset)
-- [Variáveis Incluídas](#variáveis-incluídas)
-- [Objetivo do Estudo](#objetivo-do-Estudo)
-- [Metodologia](#metodologia)
-- [Análise Exploratória](#análise-exploratória)
-- [Resultados Esperados](#resultados-esperados)
-- [Visualizações](#visualizações)
-- [Linguagem e Bibliotecas Utilizadas](#linguagem-e-bibliotecas-utilizadas)
-- [Licença](#licença)
-- [Contato](#contato)
+### Sumário 📑
+- [Introdução](#introdução)
+- [Metadados](#metadados)
+- [Colaboradores](#colaboradores)
 
-## Descrição do Dataset
-Este dataset contém informações detalhadas sobre apartamentos à venda na cidade de São Paulo, obtidas por meio de web scraping no site [vivareal.com.br](https://vivareal.com.br) e disponibilizadas na plataforma Kaggle. Ele oferece uma base rica para análises de padrões imobiliários, especialmente em relação a preços, localização e fatores socioeconômicos.
+---
 
-- **Número de Variáveis:** 23
-- **Formato do Arquivo:** XLSX
-- **Nome do Arquivo:** base_imoveis.xlsx
+### Introdução ✨
 
-## Variáveis Incluídas
-O dataset abrange diversas variáveis que influenciam o mercado imobiliário, incluindo:
-- **Distância até o metrô mais próximo:** Medida em metros, reflete a proximidade do imóvel à estação de metrô mais próxima.
-- **IDH (Índice de Desenvolvimento Humano) do bairro:** Índice que avalia a qualidade de vida na área, considerando fatores como educação, longevidade e renda.
-- **Renda média do bairro:** Média da renda dos moradores na região.
-- **Coordenadas geográficas:** Latitude e longitude do imóvel, para permitir análises espaciais.
-- **Outras variáveis:** Informações adicionais como número de quartos, banheiros, área total, entre outras características relevantes.
+No cenário atual, onde a interação entre consumidores e marcas ocorre de maneira cada vez mais digital, a análise de sentimentos tem se destacado como uma ferramenta essencial para a compreensão da experiência do cliente. A coleta e interpretação de opiniões expressas em redes sociais fornecem insights valiosos sobre a percepção do público em relação a um produto ou serviço.
 
-## Objetivo do Estudo
-Este estudo tem como objetivo analisar os padrões de moradias e imóveis na capital paulista, com foco em como o acesso facilitado a transportes urbanos, como o metrô, pode influenciar o aumento dos alugueis e dos preços de imóveis. A pesquisa também busca entender de que forma a localização afeta a segregação social, ao encarecer áreas com maior acessibilidade e excluir populações de menor poder aquisitivo dessas regiões. 
+Neste contexto, o presente projeto tem como objetivo aprimorar a análise de dados textuais, focando na avaliação das opiniões dos consumidores sobre o **Guaraná Antarctica** 🥤, uma das marcas mais icônicas do Brasil no setor de bebidas. Fundado em 1921, o Guaraná Antarctica é uma referência no segmento de refrigerantes e destaca-se por seu forte apelo cultural, patrocínio a eventos esportivos e presença consolidada em mercados nacionais e internacionais.
 
-Para alcançar esses objetivos, será realizada uma análise detalhada dos dados de alugueis fornecidos pela maior empresa do setor imobiliário. O estudo pretende identificar os principais fatores que impactam os preços dos imóveis, seja para torná-los mais caros ou mais acessíveis, levando em consideração aspectos como infraestrutura e proximidade com transporte público.
+Para entender melhor a experiência do consumidor e sua percepção sobre o produto, este estudo utilizará dados extraídos do **X**, antigo Twitter 🐦, uma das plataformas mais dinâmicas para a expressão de opiniões dos usuários. Por meio de técnicas de processamento de linguagem natural (NLP) e aprendizado de máquina 🤖, será possível categorizar sentimentos positivos, negativos e neutros relacionados ao Guaraná Antarctica, possibilitando a identificação de padrões e tendências que podem influenciar estratégias de marketing e melhorias no produto.
 
-Além disso, a pesquisa irá mapear os bairros mais caros da cidade de São Paulo, verificando a correlação entre o valor dos imóveis e a proximidade dos centros de acessibilidade urbana, como estações de metrô e linhas de ônibus. Dessa forma, será possível compreender melhor os efeitos do planejamento urbano sobre o mercado imobiliário e as disparidades sociais.
+Com essa abordagem, o estudo busca oferecer uma contribuição significativa para a gestão da marca, auxiliando na tomada de decisões baseadas em dados reais e proporcionando uma visão mais aprofundada sobre a satisfação do consumidor. Dessa forma, a análise de sentimentos aplicada ao **Guaraná Antarctica** não apenas reforça o entendimento sobre o relacionamento da marca com seu público, mas também demonstra o impacto da inteligência artificial na geração de insights para o mercado de bebidas.
 
-## Metodologia
-A análise será conduzida utilizando as seguintes abordagens:
-- **Análise Estatística:** Serão realizados testes de correlação e outras análises estatísticas para examinar as relações entre as variáveis.
-- **Visualização de Dados:** Serão criados gráficos e tabelas para ilustrar os resultados de maneira clara e compreensível.
+---
 
-## Análise Exploratória
-Na fase exploratória, as seguintes atividades serão realizadas para obter insights iniciais:
-- **Análise Descritiva:** Cálculo de estatísticas descritivas, como média, mediana e desvio padrão para as variáveis numéricas.
-- **Identificação de Outliers:** Detecção de outliers em variáveis como preço e renda média.
-- **Visualização de Distribuições:** Criação de histogramas e boxplots para visualizar as distribuições das variáveis principais.
-- **Análise de Correlação:** Estudo das correlações entre variáveis para entender melhor as inter-relações e identificar possíveis padrões.
+### Metadados 📊
 
-## Resultados Esperados
-Espera-se que a análise revele padrões significativos que influenciem os preços dos apartamentos. Além disso, insights sobre como a localização e características dos imóveis impactam a valorização serão gerados, auxiliando na compreensão das dinâmicas do mercado imobiliário em São Paulo.
+**Fonte dos Dados**  
+- **Site de Origem:** X (Antigo Twitter) 🐦
 
-## Visualizações
-Serão criadas as seguintes visualizações para apoiar a análise:
-- **Gráficos de Dispersão:** Para analisar a relação entre o preço dos imóveis e a distância ao metrô.
-- **Histogramas:** Para visualizar a distribuição dos preços e da renda média dos bairros.
-- **Heatmaps de Correlação:** Para entender as inter-relações entre as variáveis, destacando correlações fortes.
+**Método de Coleta**  
+- **API:** API do Twitter (via Twitter Developer API) 💻
 
-## Linguagem e Bibliotecas Utilizadas
-- **Linguagem de Programação:** Python
-- **Bibliotecas Python:**
-  - NumPy: Para manipulação de arrays e cálculos numéricos.
-  - Matplotlib: Para visualização gráfica dos dados.
-  - Pandas: Para manipulação e análise dos dados.
-  - Seaborn: Para criação de gráficos avançados e visualizações detalhadas.
+**Formato do Arquivo**  
+- **Tipo de Arquivo:** JSON 📁
 
-## Licença
-Este dataset é disponibilizado para fins de estudos e projetos acadêmicos. Não há restrições para o uso, de acordo com as diretrizes do criador, disponíveis no Kaggle.
+**Licença de Uso**  
+- A licença da API do Twitter permite o uso dos dados para fins de pesquisa, análise e desenvolvimento, mas com restrições sobre o uso comercial ou redistribuição sem permissão expressa.  
+- **Fonte:** [Licença da API do Twitter](https://developer.twitter.com/en/developer-terms/agreement-and-policy) 📑
 
-## Contato
-Para mais informações ou dúvidas, entre em contato com o criador do dataset através do fórum do Kaggle ou diretamente na [página do dataset](https://www.kaggle.com/datasets/jlgrego/apartamentos-venda-na-cidade-de-sao-paulo-sp).
+**Contato**  
+- Caso precise de informações adicionais ou queira discutir o uso dos dados, o contato pode ser feito por meio do suporte da API do Twitter: [Suporte Twitter Developer](https://developer.twitter.com/en/support) 📞
 
-### Colaboradores Alunos
-- Felipe Fagion Longarini 
-- João Pedro Daltro Rodrigues 
-- Diogo Moreira Poltosi Rezende 
-- Lucas Oliveira
-- Gustavo Rosa Arizona
+---
 
-### Professor:
-Thiago Graziani Traue 
+### Colaboradores 👥
 
-### Professor Tutor:
-Vinicius Piro Barragam
- 
+**Alunos**  
+- Felipe Fagion Longarini  
+- Lucas Oliveira  
+- Gleider Mackedanz de Campos  
+- Gabriel Henrique Titanegro Zanelatto  
 
-  
+**Professor**  
+- Felipe Albino Dos Santos 👨‍🏫
 
-![Imagem de Exemplo](https://tecimob.com.br/blog/wp-content/uploads/2024/02/avaliacao-de-imoveis-2.jpg)
+
+<br>
+
+![Imagem de Exemplo](https://assets.propmark.com.br/uploads/2020/01/guarana-antarctica.jpg)
